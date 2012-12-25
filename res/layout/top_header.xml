@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/left_button"
+            android:layout_width="54dip"
+            android:layout_height="54dip"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@drawable/icon"
+            android:gravity="left"
+            android:src="@drawable/mapview" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="@string/traffic"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/right_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="-100dip"
+            android:gravity="center"
+            android:text="@string/playall" />
+    </LinearLayout>
+       <ListView
+            android:id="@+id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:gravity="center"/>
+    
+   <!-- ViewFlipper
+        android:id="@+id/view_flipper"
+        android:layout_margin="6dip"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" -->
+
+        
+		<!--  commenting out until I figure out how to get this to work
+        <com.google.android.maps.MapView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/map_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:apiKey="0TdRGOp-Ys_Qi_C32vaSh2IMQcsVGMx-ZPAWr6w"
+            android:clickable="true"
+            android:gravity="center" />
+             -->
+    <!--  /ViewFlipper> -->
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Florida 511</string>
+	<string name="app_traffic">Traffic</string>
+	<string name="app_mapview">Traffic Maps</string>
+	<string name="app_travel_times">Travel Times</string>
+	<string name="app_feedback">Feedback</string>
+	<string name="app_settings">Settings</string>
+	<string name="title">Traffic</string>
+	<string name="playall">Play All</string>
+	<string name="statusbar">Current State</string>
+	<string name="traffic">Traffic</string>
+		<string-array name="incidents_array">
+		<item>No Incidents Found</item>
+	</string-array>
+	<string name="arrow">arrow</string>
+</resources>
